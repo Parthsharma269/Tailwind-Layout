@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    transition: all 555ms linear;
+}
+
+.icon:hover {
+    font: #ffffff;
+}
+
+.active-box:hover .icon-box {
+    right: 0;
+    transition: all 400ms linear;
+}
+
+.icon-box {
+    transition: all 200ms linear;
+}
